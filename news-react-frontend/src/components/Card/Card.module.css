@@ -1,0 +1,56 @@
+.cardNews{
+    border: 1px solid rgb(179, 174, 174);
+    border-radius: 15px;
+    width: 25vw;
+    height: 50vh;
+    padding: 1rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.cardNews:hover{
+    background-color: rgb(198, 197, 197);
+    cursor: pointer;
+}
+
+.tituloNews{
+    width: 100%;
+    height: 3.5rem;
+}
+.tituloNews > h3 {
+    font-size: .9rem;
+    font-weight: 600;
+    word-spacing: 6px;
+}
+
+.imgNews{
+    width: 100%;
+    height: 10rem;    
+}
+.imgNews > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: brightness(0.8) contrast(1)  saturate(0)
+}
+
+.previaNews{
+    width: 100%;
+    height: 4rem;
+}
+.previaNews > p {
+    font-size: .6rem;
+}
+
+.btnSaberMais{
+    width: 100%;
+    height: 1rem;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.btnSaberMais:hover{
+    color: blue;
+}
